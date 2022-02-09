@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bus Ticket System</title>
+    <link rel="stylesheet" href="style/navbar.css " />
+    <link rel="stylesheet" href="style/buy.css " />
+  </head>
+  <body>
+    <nav>
+      <label class="heading"
+        ><a href="./Index.html">Bus Ticket System</a></label
+      >
+      <ul>
+        <li><a class="active" href="./Index.html">Home</a></li>
+        <li><a href="./buy.html">Buy</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="form-head">
+
+    <div class="form-card">
+      <h1>Reservation Form</h1>
+      <img src="img/bus.svg" alt="Bus1" />
+      <form>
+        <div class="form-item">
+        <label>Name</label>
+        <input type="name" name="name" data-validate="required" placeholder="Pradnya Thakur" required/>
+      </div>
+      <div class="form-item">
+        <label>E-mail address</label>
+        <input type="email" name="email" data-validate="required email" placeholder="user@example.com" required/>
+      </div>
+      <div class="form-item">
+        <label>Phone No</label>
+        <input type="tel" name="telephone" placeholder="8888888888" pattern="[0-9]{10}" maxlength="10" required />
+      </div>
+      <div class="form-send">
+        <button class="send">Submit</button>
+      </div>
+      </form>
+    </div>
+  </div>
+  </body>
+</html>
